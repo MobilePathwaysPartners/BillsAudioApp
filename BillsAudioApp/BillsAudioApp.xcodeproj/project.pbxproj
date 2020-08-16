@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		794F4CBC24E97A0800292BCF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794F4CBB24E97A0800292BCF /* AppDelegate.swift */; };
+		794F4CBE24E97A0800292BCF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794F4CBD24E97A0800292BCF /* SceneDelegate.swift */; };
+		794F4CC024E97A0800292BCF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794F4CBF24E97A0800292BCF /* ViewController.swift */; };
+		794F4CC324E97A0800292BCF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 794F4CC124E97A0800292BCF /* Main.storyboard */; };
+		794F4CC524E97A0C00292BCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 794F4CC424E97A0C00292BCF /* Assets.xcassets */; };
+		794F4CC824E97A0C00292BCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 794F4CC624E97A0C00292BCF /* LaunchScreen.storyboard */; };
+		794F4CD324E97A0C00292BCF /* BillsAudioAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794F4CD224E97A0C00292BCF /* BillsAudioAppTests.swift */; };
+		794F4CDE24E97A0C00292BCF /* BillsAudioAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794F4CDD24E97A0C00292BCF /* BillsAudioAppUITests.swift */; };
+		794F4CEC24E97CCB00292BCF /* ThatsAllFolks.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 794F4CEB24E97CCB00292BCF /* ThatsAllFolks.aiff */; };
+		794F4CEE24E9894400292BCF /* Porky.png in Resources */ = {isa = PBXBuildFile; fileRef = 794F4CED24E9894400292BCF /* Porky.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		794F4CCF24E97A0C00292BCF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 794F4CB024E97A0800292BCF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 794F4CB724E97A0800292BCF;
+			remoteInfo = BillsAudioApp;
+		};
+		794F4CDA24E97A0C00292BCF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 794F4CB024E97A0800292BCF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 794F4CB724E97A0800292BCF;
+			remoteInfo = BillsAudioApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		794F4CB824E97A0800292BCF /* BillsAudioApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BillsAudioApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		794F4CBB24E97A0800292BCF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		794F4CBD24E97A0800292BCF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		794F4CBF24E97A0800292BCF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		794F4CC224E97A0800292BCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		794F4CC424E97A0C00292BCF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		794F4CC724E97A0C00292BCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		794F4CC924E97A0C00292BCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		794F4CCE24E97A0C00292BCF /* BillsAudioAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BillsAudioAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		794F4CD224E97A0C00292BCF /* BillsAudioAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillsAudioAppTests.swift; sourceTree = "<group>"; };
+		794F4CD424E97A0C00292BCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		794F4CD924E97A0C00292BCF /* BillsAudioAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BillsAudioAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		794F4CDD24E97A0C00292BCF /* BillsAudioAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillsAudioAppUITests.swift; sourceTree = "<group>"; };
+		794F4CDF24E97A0C00292BCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		794F4CEB24E97CCB00292BCF /* ThatsAllFolks.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = ThatsAllFolks.aiff; sourceTree = "<group>"; };
+		794F4CED24E9894400292BCF /* Porky.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Porky.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		794F4CB524E97A0800292BCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		794F4CCB24E97A0C00292BCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		794F4CD624E97A0C00292BCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		794F4CAF24E97A0800292BCF = {
+			isa = PBXGroup;
+			children = (
+				794F4CBA24E97A0800292BCF /* BillsAudioApp */,
+				794F4CD124E97A0C00292BCF /* BillsAudioAppTests */,
+				794F4CDC24E97A0C00292BCF /* BillsAudioAppUITests */,
+				794F4CB924E97A0800292BCF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		794F4CB924E97A0800292BCF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				794F4CB824E97A0800292BCF /* BillsAudioApp.app */,
+				794F4CCE24E97A0C00292BCF /* BillsAudioAppTests.xctest */,
+				794F4CD924E97A0C00292BCF /* BillsAudioAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		794F4CBA24E97A0800292BCF /* BillsAudioApp */ = {
+			isa = PBXGroup;
+			children = (
+				794F4CBB24E97A0800292BCF /* AppDelegate.swift */,
+				794F4CBD24E97A0800292BCF /* SceneDelegate.swift */,
+				794F4CBF24E97A0800292BCF /* ViewController.swift */,
+				794F4CC124E97A0800292BCF /* Main.storyboard */,
+				794F4CEB24E97CCB00292BCF /* ThatsAllFolks.aiff */,
+				794F4CED24E9894400292BCF /* Porky.png */,
+				794F4CC424E97A0C00292BCF /* Assets.xcassets */,
+				794F4CC624E97A0C00292BCF /* LaunchScreen.storyboard */,
+				794F4CC924E97A0C00292BCF /* Info.plist */,
+			);
+			path = BillsAudioApp;
+			sourceTree = "<group>";
+		};
+		794F4CD124E97A0C00292BCF /* BillsAudioAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				794F4CD224E97A0C00292BCF /* BillsAudioAppTests.swift */,
+				794F4CD424E97A0C00292BCF /* Info.plist */,
+			);
+			path = BillsAudioAppTests;
+			sourceTree = "<group>";
+		};
+		794F4CDC24E97A0C00292BCF /* BillsAudioAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				794F4CDD24E97A0C00292BCF /* BillsAudioAppUITests.swift */,
+				794F4CDF24E97A0C00292BCF /* Info.plist */,
+			);
+			path = BillsAudioAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		794F4CB724E97A0800292BCF /* BillsAudioApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 794F4CE224E97A0C00292BCF /* Build configuration list for PBXNativeTarget "BillsAudioApp" */;
+			buildPhases = (
+				794F4CB424E97A0800292BCF /* Sources */,
+				794F4CB524E97A0800292BCF /* Frameworks */,
+				794F4CB624E97A0800292BCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BillsAudioApp;
+			productName = BillsAudioApp;
+			productReference = 794F4CB824E97A0800292BCF /* BillsAudioApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		794F4CCD24E97A0C00292BCF /* BillsAudioAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 794F4CE524E97A0C00292BCF /* Build configuration list for PBXNativeTarget "BillsAudioAppTests" */;
+			buildPhases = (
+				794F4CCA24E97A0C00292BCF /* Sources */,
+				794F4CCB24E97A0C00292BCF /* Frameworks */,
+				794F4CCC24E97A0C00292BCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				794F4CD024E97A0C00292BCF /* PBXTargetDependency */,
+			);
+			name = BillsAudioAppTests;
+			productName = BillsAudioAppTests;
+			productReference = 794F4CCE24E97A0C00292BCF /* BillsAudioAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		794F4CD824E97A0C00292BCF /* BillsAudioAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 794F4CE824E97A0C00292BCF /* Build configuration list for PBXNativeTarget "BillsAudioAppUITests" */;
+			buildPhases = (
+				794F4CD524E97A0C00292BCF /* Sources */,
+				794F4CD624E97A0C00292BCF /* Frameworks */,
+				794F4CD724E97A0C00292BCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				794F4CDB24E97A0C00292BCF /* PBXTargetDependency */,
+			);
+			name = BillsAudioAppUITests;
+			productName = BillsAudioAppUITests;
+			productReference = 794F4CD924E97A0C00292BCF /* BillsAudioAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		794F4CB024E97A0800292BCF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Bill Skrzypczak";
+				TargetAttributes = {
+					794F4CB724E97A0800292BCF = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					794F4CCD24E97A0C00292BCF = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 794F4CB724E97A0800292BCF;
+					};
+					794F4CD824E97A0C00292BCF = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 794F4CB724E97A0800292BCF;
+					};
+				};
+			};
+			buildConfigurationList = 794F4CB324E97A0800292BCF /* Build configuration list for PBXProject "BillsAudioApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 794F4CAF24E97A0800292BCF;
+			productRefGroup = 794F4CB924E97A0800292BCF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				794F4CB724E97A0800292BCF /* BillsAudioApp */,
+				794F4CCD24E97A0C00292BCF /* BillsAudioAppTests */,
+				794F4CD824E97A0C00292BCF /* BillsAudioAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		794F4CB624E97A0800292BCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				794F4CC824E97A0C00292BCF /* LaunchScreen.storyboard in Resources */,
+				794F4CC524E97A0C00292BCF /* Assets.xcassets in Resources */,
+				794F4CEC24E97CCB00292BCF /* ThatsAllFolks.aiff in Resources */,
+				794F4CC324E97A0800292BCF /* Main.storyboard in Resources */,
+				794F4CEE24E9894400292BCF /* Porky.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		794F4CCC24E97A0C00292BCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		794F4CD724E97A0C00292BCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		794F4CB424E97A0800292BCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				794F4CC024E97A0800292BCF /* ViewController.swift in Sources */,
+				794F4CBC24E97A0800292BCF /* AppDelegate.swift in Sources */,
+				794F4CBE24E97A0800292BCF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		794F4CCA24E97A0C00292BCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				794F4CD324E97A0C00292BCF /* BillsAudioAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		794F4CD524E97A0C00292BCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				794F4CDE24E97A0C00292BCF /* BillsAudioAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		794F4CD024E97A0C00292BCF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 794F4CB724E97A0800292BCF /* BillsAudioApp */;
+			targetProxy = 794F4CCF24E97A0C00292BCF /* PBXContainerItemProxy */;
+		};
+		794F4CDB24E97A0C00292BCF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 794F4CB724E97A0800292BCF /* BillsAudioApp */;
+			targetProxy = 794F4CDA24E97A0C00292BCF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		794F4CC124E97A0800292BCF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				794F4CC224E97A0800292BCF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		794F4CC624E97A0C00292BCF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				794F4CC724E97A0C00292BCF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		794F4CE024E97A0C00292BCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		794F4CE124E97A0C00292BCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		794F4CE324E97A0C00292BCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6JD548BN3B;
+				INFOPLIST_FILE = BillsAudioApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.BulldogVenturesInc.BillsAudioApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		794F4CE424E97A0C00292BCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6JD548BN3B;
+				INFOPLIST_FILE = BillsAudioApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.BulldogVenturesInc.BillsAudioApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		794F4CE624E97A0C00292BCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6JD548BN3B;
+				INFOPLIST_FILE = BillsAudioAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.BulldogVenturesInc.BillsAudioAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BillsAudioApp.app/BillsAudioApp";
+			};
+			name = Debug;
+		};
+		794F4CE724E97A0C00292BCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6JD548BN3B;
+				INFOPLIST_FILE = BillsAudioAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.BulldogVenturesInc.BillsAudioAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BillsAudioApp.app/BillsAudioApp";
+			};
+			name = Release;
+		};
+		794F4CE924E97A0C00292BCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6JD548BN3B;
+				INFOPLIST_FILE = BillsAudioAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.BulldogVenturesInc.BillsAudioAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BillsAudioApp;
+			};
+			name = Debug;
+		};
+		794F4CEA24E97A0C00292BCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6JD548BN3B;
+				INFOPLIST_FILE = BillsAudioAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.BulldogVenturesInc.BillsAudioAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BillsAudioApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		794F4CB324E97A0800292BCF /* Build configuration list for PBXProject "BillsAudioApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				794F4CE024E97A0C00292BCF /* Debug */,
+				794F4CE124E97A0C00292BCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		794F4CE224E97A0C00292BCF /* Build configuration list for PBXNativeTarget "BillsAudioApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				794F4CE324E97A0C00292BCF /* Debug */,
+				794F4CE424E97A0C00292BCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		794F4CE524E97A0C00292BCF /* Build configuration list for PBXNativeTarget "BillsAudioAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				794F4CE624E97A0C00292BCF /* Debug */,
+				794F4CE724E97A0C00292BCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		794F4CE824E97A0C00292BCF /* Build configuration list for PBXNativeTarget "BillsAudioAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				794F4CE924E97A0C00292BCF /* Debug */,
+				794F4CEA24E97A0C00292BCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 794F4CB024E97A0800292BCF /* Project object */;
+}
